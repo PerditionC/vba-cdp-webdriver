@@ -1,50 +1,49 @@
 # vba-cdp-webdriver
 
-Chromium ベースのブラウザを VBA から操作するための派生版プロジェクトです。  
-元プロジェクトをベースに、公開しやすい形へ整理した VBA ソース一式をまとめています。
+__This is a clone of [vba-cbp-webdriver](https://github.com/totqkke/vba-cdp-webdriver) which itself is a derivative - comments auto translated from original Japanese__
 
+This is a derivative project designed to control Chromium-based browsers from VBA.
+It consolidates a complete set of VBA source code based on the original project, organized for easy public release.
 
 ## Base project
-このプロジェクトは、以下のプロジェクトをベースとした機能強化版です。
-MITライセンスに基づき公開を行っております。
+This project is an enhanced version based on the following project.
+It is released under the MIT License.
 
 - [24000/ChromeControler-No-Selenium-WebDriver-VBAJSON](https://github.com/24000/ChromeControler-No-Selenium-WebDriver-VBAJSON)
 
 ## Overview
-このリポジトリは、CDP を利用したブラウザ自動操作を VBA で扱うための派生版です。  
-Selenium / WebDriver の追加導入が難しい環境でも、VBA ベースでブラウザ操作を組み立てたい場合の出発点として使うことを想定しています。
+This repository is a derivative version for handling browser automation via CDP (Chrome DevTools Protocol) using VBA.
+It is intended to serve as a starting point for building browser automation logic in VBA, particularly in environments where installing Selenium or WebDriver is difficult.
 
 ## What this project is
-このプロジェクトでは、Chromium ベースのブラウザを VBA から操作するためのクラス、モジュール、補助コードを公開しています。  
-派生版として、公開向けに整理した構成で参照できるようにしています。
-
+This project provides classes, modules, and helper code to control Chromium-based browsers from VBA.
+As a derivative version, the code has been organized to make it easier to reference and share publicly.
 
 ## Repository structure
-- `README.md`  
-  このリポジトリの概要です。
+- `README.md`
+An overview of this repository.
 
-- `LICENSE`  
-  ライセンス情報です。
+- `LICENSE`
+License information.
 
-- `src/`  
-  主要な VBA ソースです。  
-  クラスや中核となる処理を確認する場合は、まずここを見てください。
+- `src/`
+Main VBA source code. 
+Check here first to understand the classes and core processing logic.
 
-- `Module/`  
-  補助モジュール群です。  
-  `Sample` もここに含まれており、実際の使い方や呼び出し方の入口として確認できます。
+- `Module/`
+Auxiliary modules. 
+Includes `Sample` modules, which serve as an entry point for understanding actual usage and how to call the code.
 
 ## Where to start
-最初に全体像をつかむ場合は、次の順番で見る想定です。
+To grasp the big picture, we recommend reviewing the files in the following order:
 
-1. `README.md` で概要を確認する  
-2. `src/` で主要クラスと中核処理を見る  
-3. `Module/` の `Sample` を見て、実際の呼び出し方を確認する  
+1. Check the overview in `README.md`.
+2. Examine the main classes and core logic in `src/`.
+3. Look at the `Sample` modules in `Module/` to see how to call the code in practice.
 
 ## Notes
-この README では、まずリポジトリ全体の位置づけと入口が分かることを優先しています。  
-実装の詳細、変更点の技術的な説明、設計上の意図は別記事側に切り分ける想定です。
+This README prioritizes providing a clear understanding of the repository's purpose and where to begin. Implementation details, technical explanations of changes, and design intentions are intended to be covered in a separate article.
 
 ## License
-This repository is published under the MIT License.  
+This repository is published under the MIT License.
 See `LICENSE`.
